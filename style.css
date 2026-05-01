@@ -1,0 +1,53 @@
+/* Design moderne pour Le Saviez-Vous */
+body {
+    background-color: #0f172a; /* Bleu très sombre */
+    color: #f8fafc; /* Texte blanc cassé */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #38bdf8; /* Bleu clair brillant */
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    background: #1e293b;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    border: 1px solid #334155;
+    max-width: 90%;
+    width: 400px;
+    margin: 20px auto;
+}
+
+button {
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.links a {
+    color: #38bdf8;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
