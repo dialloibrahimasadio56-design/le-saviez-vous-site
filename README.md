@@ -1,34 +1,49 @@
-# 🔥 Le saviez-vous officiel
+# 🌍 Le Saviez-Vous Officiel
 
-Bienvenue sur le site **Le saviez-vous officiel** 🌍
-
-Ce projet partage des faits incroyables, éducatifs et viraux chaque jour.
+Site web officiel de la chaîne YouTube **"Le Saviez-Vous ?"**
 
 ---
 
-## 🚀 Objectif
-Créer un site simple, rapide et viral pour informer et divertir.
+## 🎯 Objectif
+Créer un site moderne style TED-Ed pour partager :
+- 🧠 des faits incroyables  
+- 🌍 des mystères du monde  
+- 🔥 du contenu éducatif et viral  
 
 ---
 
-## 📱 Réseaux sociaux
+## 📁 Structure du projet
+---
 
-👉 TikTok :  
-https://www.tiktok.com/@le.saviezvous963?_r=1&_t=ZS-960KBlLFbVw
-
-👉 Facebook :  
-https://www.facebook.com/profile.php?id=61578550298495
-
-👉 YouTube :  
-https://youtube.com/@lesaviezvousofficiel-sb2vl?si=JrCpLBuO6jyw52Jo
+## 🚀 Technologies utilisées
+- HTML5  
+- CSS3  
+- JavaScript  
 
 ---
 
-## 💻 Technologies
-- HTML
-- CSS
-- JavaScript
+## 📺 Réseaux sociaux
+- YouTube : https://youtube.com/@lesav  
+- TikTok : https://www.tiktok.com/@le.saviezvous963  
+- Facebook : https://www.facebook.com/profile.php?id=61578550298495  
 
 ---
 
-© 2026 Le saviez-vous officiel
+## 💡 Fonctionnalités du site
+- 🎨 Design moderne style TED-Ed  
+- 📺 Cartes de vidéos dynamiques  
+- 📱 Site responsive (mobile + ordinateur)  
+- 🔗 Liens vers réseaux sociaux  
+
+---
+
+## 🔥 Objectif futur
+- Connexion automatique avec YouTube  
+- Articles de faits du jour  
+- Amélioration du design professionnel  
+- Monétisation du site  
+
+---
+
+## 👤 Créateur
+**Le Saviez-Vous Officiel — 2026**
