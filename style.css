@@ -144,3 +144,10 @@ footer {
     font-size: 14px;
   }
 }
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
