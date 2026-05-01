@@ -52,3 +52,14 @@ footer {
   background: #222;
   color: white;
 }
+.logo-site {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Rend le logo rond */
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #38bdf8; /* Un contour bleu pour rappeler ton titre */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
