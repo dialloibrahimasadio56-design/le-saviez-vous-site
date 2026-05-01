@@ -1,34 +1,44 @@
-const facts = [
-  "Les pieuvres ont 3 cœurs 🐙",
-  "Le miel ne se périme jamais 🍯",
-  "Les humains partagent 60% d’ADN avec les bananes 🍌",
-  "Le cerveau consomme 20% de l’énergie du corps 🧠"
+/* =========================
+   LE SAVIEZ-VOUS - SCRIPT JS
+   ========================= */
+
+// 📌 Données des vidéos (tu peux ajouter les tiennes ici)
+const videos = [
+  {
+    title: "Un fait incroyable sur l’espace",
+    desc: "Découvre un mystère fascinant de l’univers.",
+    img: "https://source.unsplash.com/400x300/?space"
+  },
+  {
+    title: "La Terre cache un secret",
+    desc: "Un phénomène que très peu de gens connaissent.",
+    img: "https://source.unsplash.com/400x300/?earth"
+  },
+  {
+    title: "Les océans sont étranges",
+    desc: "Des créatures inconnues vivent encore ici.",
+    img: "https://source.unsplash.com/400x300/?ocean"
+  }
 ];
 
-let i = 0;
+// 📌 Sélection de la grille
+const grid = document.getElementById("videoGrid");
 
-function showFact() {
-  document.getElementById("fact").textContent = facts[i];
-  i = (i + 1) % facts.length;
+// 📌 Fonction pour afficher les vidéos
+function loadVideos() {
+  videos.forEach(video => {
+    const card = document.createElement("div");
+    card.classList.add("card");
+
+    card.innerHTML = `
+      <img src="${video.img}" alt="${video.title}">
+      <h3>${video.title}</h3>
+      <p>${video.desc}</p>
+    `;
+
+    grid.appendChild(card);
+  });
 }
 
-setInterval(showFact, 4000);
-window.onload = showFact;
-
-// partage Facebook
-function shareFacebook() {
-  window.open(
-    "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href,
-    "_blank"
-  );
-}
-
-// compteur visiteurs
-let count = localStorage.getItem("visits") || 0;
-count++;
-localStorage.setItem("visits", count);
-
-window.onload = () => {
-  document.getElementById("counter").textContent = count;
-  showFact();
-};
+// 📌 Charger les vidéos au démarrage
+document.addEventListener("DOMContentLoaded", loadVideos);
