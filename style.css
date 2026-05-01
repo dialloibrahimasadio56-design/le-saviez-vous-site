@@ -225,3 +225,7 @@ nav a {
   margin: 5px;
   display: inline-block;
 }
+@media (max-width: 600px) {
+  h1 { font-size: 28px; }
+  .cta a { width: 100%; text-align: center; }
+}
