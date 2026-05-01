@@ -1,72 +1,77 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Le saviez-vous officiel 🔥</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Saviez-Vous Officiel</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
+  <!-- HEADER -->
   <header>
-    <h1>Le saviez-vous 🔥</h1>
-    <p>Des faits incroyables chaque jour</p>
+    <h1>Le Saviez-Vous ?</h1>
+    <p>Des faits incroyables pour éveiller ta curiosité</p>
   </header>
 
-  <main>
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#videos">Vidéos</a>
+    <a href="#apropos">À propos</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <section class="card">
-      <h2 id="fact">Chargement des faits...</h2>
-    </section>
+  <!-- SECTION VIDÉOS -->
+  <section class="container" id="videos">
+    <h2>🔥 Vidéos récentes</h2>
+    <div class="grid" id="videoGrid"></div>
+  </section>
 
-    <button onclick="shareFacebook()">Partager 📢</button>
+  <!-- À PROPOS -->
+  <section class="container" id="apropos">
+    <h2>📌 À propos</h2>
+    <p>
+      Le Saviez-Vous est une chaîne dédiée aux faits incroyables, mystères,
+      science et curiosités du monde.
+    </p>
+  </section>
 
-    <p>Visiteurs 👀 : <span id="counter"></span></p>
+  <!-- CONTACT / RÉSEAUX -->
+  <section class="container" id="contact">
+    <h2>🌍 Suis-nous</h2>
 
-    <section class="social">
-      <h3>Rejoins-nous 🔥</h3>
+    <div class="cta">
 
-      <a href="https://www.tiktok.com/@le.saviezvous963?_r=1&_t=ZS-960KBlLFbVw" target="_blank">TikTok</a>
+      <a href="https://youtube.com/@lesav" target="_blank">
+        YouTube
+      </a>
 
-      <a href="https://www.facebook.com/profile.php?id=61578550298495" target="_blank">Facebook</a>
+      <a href="https://www.tiktok.com/@le.saviezvous963?_r=1&_t=ZS-960KBlLFbVw" target="_blank">
+        TikTok
+      </a>
 
-      <a href="https://youtube.com/@lesaviezvousofficiel-sb2vl?si=JrCpLBuO6jyw52Jo" target="_blank">YouTube</a>
-    </section>
+      <a href="https://www.facebook.com/profile.php?id=61578550298495" target="_blank">
+        Facebook
+      </a>
 
-  </main>
+    </div>
+  </section>
 
+  <!-- CTA YOUTUBE -->
+  <section class="cta">
+    <a href="https://youtube.com/@lesav" target="_blank">
+      🔔 S’abonner sur YouTube
+    </a>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    <p>© 2026 Le saviez-vous officiel</p>
+    © 2026 Le Saviez-Vous Officiel - Tous droits réservés
   </footer>
 
+  <!-- SCRIPT -->
   <script src="script.js"></script>
 
 </body>
 </html>
-<section class="video">
-  <h2>🎬 Vidéo du jour</h2>
-
-  <iframe width="100%" height="200"
-    src="https://www.youtube.com/embed/ID_DE_TA_VIDEO"
-    title="YouTube video"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
-</section>
-<section class="video">
-  <h2>🎥 TikTok du jour</h2>
-
-  <blockquote class="tiktok-embed"
-    cite="https://www.tiktok.com/@user/video/VIDEO_ID"
-    data-video-id="VIDEO_ID">
-  </blockquote>
-
-  <script async src="https://www.tiktok.com/embed.js"></script>
-</section>
-<video controls width="100%">
-  <source src="video.mp4" type="video/mp4">
-</video>
-<img src="fichier_0000000058707243a876038fd7a869ef.png" alt="Logo Le Saviez-vous" class="logo-site">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/ID_DE_TA_VIDEO" frameborder="0" allowfullscreen></iframe>
-
