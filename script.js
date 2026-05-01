@@ -42,3 +42,35 @@ function loadVideos() {
 
 // 📌 Charger les vidéos au démarrage
 document.addEventListener("DOMContentLoaded", loadVideos);
+const videos = [
+  {
+    title: "Fait incroyable sur l’espace",
+    desc: "Un mystère de l’univers.",
+    img: "https://source.unsplash.com/400x300/?space"
+  },
+  {
+    title: "Secret de la Terre",
+    desc: "Un phénomène étrange.",
+    img: "https://source.unsplash.com/400x300/?earth"
+  },
+  {
+    title: "Océans mystérieux",
+    desc: "Des créatures inconnues.",
+    img: "https://source.unsplash.com/400x300/?ocean"
+  }
+];
+
+const grid = document.getElementById("videoGrid");
+
+videos.forEach(v => {
+  const card = document.createElement("div");
+  card.classList.add("card");
+
+  card.innerHTML = `
+    <img src="${v.img}">
+    <h3>${v.title}</h3>
+    <p>${v.desc}</p>
+  `;
+
+  grid.appendChild(card);
+});
